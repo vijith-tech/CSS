@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow</title>
+    <style>
+       
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 5px;
+            margin: 30px auto;
+            color: red;
+
+        }
+        #top-left{
+            box-shadow: -5px -5px chartreuse;
+            border-radius: 10px 0;
+        }
+        #bottom-right{
+
+            box-shadow: 5px 5px 5px yellow;
+            border-bottom-right-radius: 15px;
+        }
+        #bottom-spread{
+            box-shadow: 5px 5px 5px 5px chartreuse;
+            border-bottom-right-radius: 15px;
+        }
+        #outer-spread{
+            box-shadow: 0 0 15px goldenrod;
+            border-radius:10px 15px 15px 20px ;
+
+        }
+        #inset{
+            text-align: center ;
+            box-shadow: 0 0 15px yellowgreen;
+            border-radius: 100px;
+            line-height: 100px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h1>Box shadow</h1>
+
+    <div id="top-left" > top left</div>
+    <div id="bottom-right">bottom right</div>
+    <div id="bottom-spread">bottom right spread</div>
+    <div id="outer-spread">outer spread</div>
+    <div id="inset">inset</div>
+    
+</body>
+</html>

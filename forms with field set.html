@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms with fieldset</title>
+    <style>
+        fieldset{
+            border: 4px solid rgb(116, 79, 24);
+            margin-bottom: 20px;
+            border-radius: 15px;
+           
+        }
+        legend{
+            background-color:mediumaquamarine;
+            border-radius: 5px;
+           
+           
+        }
+        .S1{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms  with fieldset</h1>
+    <form action="forms.com" method="POST">
+
+    <fieldset>
+        <legend>Login details</legend>
+        <p>  
+            <label for="User name">User name</label> <br>
+            <input type="text" name="uname">
+        </p>
+    
+        <p>  
+            <label for="Email">Email</label> <br>
+            <input type="text" name="aname">
+        </p>
+
+        <p>  
+            <label for="password">password</label> <br>
+            <input type="text" name="bame" placeholder="Enter your user password ">
+        </p>
+
+        <p>  
+            <label for=" Confirm password">Confirm password</label> <br>
+            <input type="text" name="came" placeholder="Enter your user Confirm passwor ">
+        </p>
+ </fieldset>
+
+ <fieldset>
+     <legend>Education details</legend>
+     <p>  
+        <label for="Qualification">Qualification</label> <br>
+        <input type="text" name="bame" >
+    </p>
+    <p>  
+        <label for="Major">Major</label> <br>
+        <input type="text" name="bame" >
+    </p>
+    <p>  
+        <label for="College">College</label> <br>
+        <input type="text" name="bame" >
+    </p>
+    <p>  
+        <label for="Year of passing">Year of passing</label> <br>
+        <input type="text" name="bame" >
+    </p>
+    
+     
+ </fieldset>
+ <p class="S1">
+     
+    <input type="submit" value="submit" name="label form" >
+</p>
+
+    </form>
+    
+</body>
+</html>
